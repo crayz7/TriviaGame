@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trivia Game</title>
+
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script defer="defer" src="./assets/javascript/app.js"></script>
+	
+</head>
+<body>
+
+  <div id="container">
+  	<header>Trivia Game!</header>
+  	<div id="timeleft"></div>
+  	<form id="myForm">
+      <fieldset id="group1">What is the first mass produced automobile? <br>
+        <input type="radio" value="1" name="group1">Ford Model T
+        <input type="radio" value="2" name="group1">Oldsmobile Curved Dash
+        <input type="radio" value="3" name="group1">Rambler automobile
+        <input type="radio" value="4" name="group1">Tesla Model S
+      </fieldset>
+	  <br>
+      <fieldset id="group2">What does BMW stand for? <br>
+        <input type="radio" value="1" name="group2">Bring My Wallet
+        <input type="radio" value="2" name="group2">Born Moderately Wealthy
+        <input type="radio" value="3" name="group2">Bavarian Motor Works
+        <input type="radio" value="4" name="group2">Best Motorcycle Worldwide
+      </fieldset>
+	  <br>
+      <fieldset id="group3">What is the quickest (0-60) production vehicle? <br>
+        <input type="radio" value="1" name="group3">Tesla Model S P100D
+        <input type="radio" value="2" name="group3">Porsche 918
+        <input type="radio" value="3" name="group3">McLaren P1
+        <input type="radio" value="4" name="group3">Ferrari LaFerrari
+      </fieldset>
+	  <br>
+      <fieldset id="group4">Which vehicle is manufactured in Sweden? <br>
+        <input type="radio" value="1" name="group4">Koenigsegg
+        <input type="radio" value="2" name="group4">McLaren
+        <input type="radio" value="3" name="group4">Ferrari
+        <input type="radio" value="4" name="group4">Porsche
+      </fieldset>
+	  <br>
+      <fieldset id="group5">What was the top selling vehicle in America in 2016? <br>
+        <input type="radio" value="1" name="group5">Ram Pickup
+        <input type="radio" value="2" name="group5">Chevrolet Silverado
+        <input type="radio" value="3" name="group5">Toyota Camry
+        <input type="radio" value="4" name="group5">Ford F-series
+      </fieldset>
+	</form>
+
+	<div id="result">
+  	  <div id="correct"></div>
+  	  <div id="incorrect"></div>
+	</div>
+
+  </div>
+  
+
+</body>
+</html>
